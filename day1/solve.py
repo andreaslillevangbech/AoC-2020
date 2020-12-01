@@ -9,6 +9,7 @@ for i in dat:
         print(i*j)
 
 # -------------- PART 2 ----------------
+print("part 2")
 for i in dat:
   for j in dat:
     for q in dat:
