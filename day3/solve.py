@@ -12,7 +12,6 @@ print(count)
 print("Part 2")
 def tree(x):
   count = 0
-  j = 0
   for i in range(0, h, x[1]):
     j = (i//x[1])*x[0] % w
     if dat[i][j] == '#':
