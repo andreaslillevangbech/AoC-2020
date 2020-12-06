@@ -13,6 +13,5 @@ print(max(id))
 print(max(ids))
 
 print("Part 2")
-lst = [i for i in range(min(ids), max(ids)) if not i in ids]
-
+lst = [i for i in range(min(id), max(id)) if not i in id]
 print(lst)
