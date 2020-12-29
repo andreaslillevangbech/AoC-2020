@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-dat = open('input').read().strip().split('\n')
+dat = open('input.txt').read().strip().split('\n')
 dat = sorted([int(x) for x in dat])
 dat.append(max(dat)+3)
 
@@ -23,4 +23,4 @@ for i in reversed(dat[:-1]):
         if 0<key-i<4:
             v[i] += v[key]
 print(v[0])
-
+print(v)
